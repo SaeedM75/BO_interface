@@ -1,0 +1,119 @@
+{
+    "structure_info": {
+        "kgrid_pbe": [
+            8,
+            8,
+            1
+        ],
+        "num_kpts": 8,
+        "kpath": "GXWLGK"
+    },
+    "general_flags": {
+        "algo": "Fast",
+        "amin": 0.01,
+        "bmix": 1.8,
+        "ediff": 0.1,
+        "ediffg": -0.01,
+        "encut": 300,
+        "ibrion": -1,
+        "icharg": 2,
+        "isif": 2,
+        "ismear": 0,
+        "ispin": 2,
+        "laechg": true,
+        "lasph": true,
+        "lcharg": false,
+        "lorbit": 11,
+        "lreal": "Auto",
+        "lvhar": true,
+        "lwave": false,
+        "nelm": 20,
+        "nsw": 0,
+        "prec": "N",
+        "sigma": 0.05,
+        "isym": 0,
+        "idipol": 3
+    },
+    "scf": {
+        "idipol": 3,
+        "magmom": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            2.3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "ldau": true,
+        "ldau_luj": {
+            "In": {
+                "L": 1,
+                "U": -0.2,
+                "J": 0
+            },
+            "Fe": {
+                "L": -1,
+                "U": 0,
+                "J": 0
+            },
+            "Sb": {
+                "L": 1,
+                "U": -6.1,
+                "J": 0
+            },
+            "H": {
+                "L": -1,
+                "U": 0,
+                "J": 0
+            }
+        },
+        "lmaxmix": 4,
+        "ncore": 4
+    },
+    "band": {
+        "icharg": 11,
+        "lcharg": false,
+        "lwave": false
+    },
+    "pbe": {
+        "xc": "pbe"
+    },
+    "hse": {
+        "xc": "hse06",
+        "aexx": 0.25,
+        "time": 0.4,
+        "ldiag": true,
+        "precfock": "Fast"
+    }
+}
